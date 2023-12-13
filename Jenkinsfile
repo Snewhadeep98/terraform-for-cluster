@@ -44,7 +44,7 @@ pipeline {
 
                     dir('kubernetes') {
 
-                        sh "aws eks update-kubeconfig --name jenkins-server-eks-cluster-2"
+                        sh "aws eks update-kubeconfig --name jenkins-server-eks-clust"
 
                         sh "kubectl apply -f deployment.yaml"
 
